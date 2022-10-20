@@ -7,7 +7,7 @@
 - [Acknowledgements](https://github.com/joaomigl15/spdisaggregation/blob/main/README.md#acknowledgements)
 
 # Spatial Disaggregation
-I present a self-training approach to the spatial disaggregation task. The different steps are as follows.
+This branch contains a self-training approach to the spatial disaggregation task. The different steps are as follows.
 1. Produce a vector polygon layer for the aggregated information, by associating the source counts of the variable that is to be disaggregated with the corresponding regions;
 2. Compute initial estimates using a simple disaggregation heuristic, such as pycnophylactic interpolation or dasymetric mapping proportional to population density, from the layer with source region counts produced in Step 1;
 3. Train a regression model to infer the results from Step 2 from the ancillary information available as gridded rasters. After training, the regression model is used to produce new disaggregated values, refining the original estimates;
@@ -15,7 +15,7 @@ I present a self-training approach to the spatial disaggregation task. The diffe
 5. Steps 3 and 4 are repeated until reaching a maximum number of iterations, or until some other stopping criteria are met.
 
 The method can also be applied to the co-training of two regression algorithms. In this case, the adapted step 3 is as follows.
-3. In odd iterations, regression model 1 uses the estimates produced by model 2 (or the initial estimates from the disaggregation heuristic, in case it is the first iteration) as the regression target, and produces refined estimates. In even iterations, regression model 2 instead leverages the estimates from model 1 as the regression target, and produces refined estimates;
+- In odd iterations, regression model 1 uses the estimates produced by model 2 (or the initial estimates from the disaggregation heuristic, in case it is the first iteration) as the regression target, and produces refined estimates. In even iterations, regression model 2 instead leverages the estimates from model 1 as the regression target, and produces refined estimates;
 
 # Code Usage
 The disaggregation method relies on a regression model to combine the ancillary data and produce disaggregation estimates. The entire procedure was implemented in the Python language, using the frameworks [scikit-learn](http://scikit-learn.org) and [Tensorflow](http://www.tensorflow.org).
