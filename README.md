@@ -37,7 +37,7 @@ runDisaggregation.py
 
 
 ## Ancillary Data
-Ancillary layers are required at the target resolution to guide the procedure. Each dataset is normalized to the target resolution, through averaging/summing cells in the cases where the original raster had a higher resolution, or through bicubic interpolation in the cases where the original raster had a lower resolution. The links for the ancillary data that we used in our study are provided are the following, although any dataset can be leveraged.
+Ancillary layers are required at the target resolution to guide the procedure. Each dataset is normalized to the target resolution, through averaging/summing cells in the cases where the original raster had a higher resolution, or through bicubic interpolation in the cases where the original raster had a lower resolution. The links for the ancillary data that we used in our study are provided next, although any dataset can be leveraged.
 - [GHSL Population grid](https://ghsl.jrc.ec.europa.eu/)
 - [GHSL Terrain development layer](https://ghsl.jrc.ec.europa.eu/)
 - [Copernicus Land cover layer](https://land.copernicus.eu/pan-european)
