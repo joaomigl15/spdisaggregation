@@ -13,15 +13,21 @@
 
 ## Spatial Disaggregation
 To run the disaggregation algorithm:
-»» runDisaggregation.py
+```
+runDisaggregation.py
+```
 
 ## Dasymetric Mapping
 To run dasymetric mapping with basis on population distribution:
-»» runDisaggregation.py
+```
+runDisaggregation.py
+```
 
 ## Pycnophylactic Interpolation
 To run the pycnophylactic interpolation:
-»» runDisaggregation.py
+```
+runDisaggregation.py
+```
 
 
 # Disaggregated Results
