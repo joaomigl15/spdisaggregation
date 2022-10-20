@@ -1,5 +1,6 @@
 # Table of Contents
 - [Code Usage](https://github.com/joaomigl15/spdisaggregation/blob/main/README.md#code-usage)
+- [Disaggregated Results](https://github.com/joaomigl15/spdisaggregation/blob/main/README.md#disaggregated-results)
 - [Datasets](https://github.com/joaomigl15/spdisaggregation/blob/main/README.md#datasets)
 - [Contact](https://github.com/joaomigl15/spdisaggregation/blob/main/README.md#contact)
 - [Citation](https://github.com/joaomigl15/spdisaggregation/blob/main/README.md#citation)
