@@ -13,21 +13,21 @@
 # Code Usage
 
 ## Spatial Disaggregation
-To run the disaggregation algorithm:
+To run the disaggregation algorithm, for the amount of withdrawals in ATMs:
 ```
-runDisaggregation.py
+./disaggregate_withdrawals.sh
 ```
 
 ## Dasymetric Mapping
-To run dasymetric mapping with basis on population distribution:
+To run dasymetric mapping with basis on population distribution, for the amount of withdrawals in ATMs:
 ```
-runDisaggregation.py
+./dasymapping_withdrawals.sh
 ```
 
 ## Pycnophylactic Interpolation
-To run the pycnophylactic interpolation:
+To run the pycnophylactic interpolation, for the amount of withdrawals in ATMs:
 ```
-runDisaggregation.py
+./pycno_withdrawals.sh
 ```
 
 ## Evaluation of Results
