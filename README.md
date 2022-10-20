@@ -42,7 +42,7 @@ Extra:
 - Baseline corresponding to mass-preserving areal weighting - /results/Withdrawals/Baselines/massp_200m.tif
 - Baseline corresponding to pycnophylactic interpolation - /results/Withdrawals/Baselines/pycno_200m.tif
 - Baseline corresponding to weighted interpolation - /results/Withdrawals/Baselines/td_200m.tif
-- Co-training with two CNNs differing in their initialization - /results/Withdrawals/Co-Training 1UNet 2UNet
+- Co-training with two CNNs differing in their initializations - /results/Withdrawals/Co-Training 1UNet 2UNet
 - Ensembling of random forests and CNN - /results/Withdrawals/Co-Training Baselines/50Unet 50RF
 - Co-training with random forests and CNN, with target as random forests 10It - /results/Withdrawals/Co-Training/Target RF 10It
 - Co-training with random forests and CNN, with target as random forests 30It - /results/Withdrawals/Co-Training/Target RF 30It
