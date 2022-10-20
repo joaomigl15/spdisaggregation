@@ -21,6 +21,11 @@ The method can also be applied to the co-training of two regression algorithms. 
 The disaggregation method relies on a regression model to combine the ancillary data and produce disaggregation estimates. The entire procedure was implemented in the Python language, using the frameworks [scikit-learn](http://scikit-learn.org) and [Tensorflow](http://www.tensorflow.org).
 
 ## Spatial Disaggregation
+This file '/code/runDisaggregation_Withdrawals.py' controls the self-training approach for each experiment. In this file, the following parameters need to be defined.
+- 
+
+The execution of the script produces one .tif file, containing the disaggregated results for the study region, concerning each iteration of the algorithm.
+
 To run the disaggregation algorithm, for the amount of withdrawals in ATMs:
 ```
 ./disaggregate_withdrawals.sh
