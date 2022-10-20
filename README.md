@@ -35,11 +35,11 @@ runDisaggregation.py
 # Datasets
 
 ## Ancillary Data
-- GHSL Population grid
-- GHSL Terrain development layer
-- Copernicus Land cover layer
-- Copernicus Human settlements layer
-- VIIRS Nighttime lights layer
+- [GHSL Population grid](https://ghsl.jrc.ec.europa.eu/)
+- [GHSL Terrain development layer](https://ghsl.jrc.ec.europa.eu/)
+- [Copernicus Land cover layer](https://land.copernicus.eu/pan-european)
+- [Copernicus Human settlements layer](https://land.copernicus.eu/pan-european)
+- [VIIRS Nighttime lights layer](http://gis.ngdc.noaa.gov/arcgis/rest/services/NPP_VIIRS_DNB)
 
 ## Shapefiles
 
