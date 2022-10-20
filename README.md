@@ -30,6 +30,17 @@ To run the pycnophylactic interpolation:
 runDisaggregation.py
 ```
 
+## Evaluation of Results
+To evaluate results from .tif files available in '/results/Withdrawals/2Evaluate' at the level of intermediary regions, and using the pre-instaled QGis application, run:
+```
+cd code/evaluation
+qgis -nologo --code zstats.py
+screen -L -Logfile ev.txt -S evaluate
+python3 evaluateResults.py
+exit
+python3 processEvaluation.py
+```
+
 
 # Disaggregated Results
 The .tif files containing the disaggregated results reported in our study are available in:
