@@ -37,12 +37,12 @@ runDisaggregation.py
 
 
 ## Ancillary Data
-Ancillary layers are required at the target resolution to guide the procedure. Each dataset is normalized to the target resolution, through averaging/summing cells in the cases where the original raster had a higher resolution, or through bicubic interpolation in the cases where the original raster had a lower resolution. The links for the ancillary data that we used in our study are provided next, although any dataset can be leveraged.
-- [GHSL Population grid](https://ghsl.jrc.ec.europa.eu/)
-- [GHSL Terrain development layer](https://ghsl.jrc.ec.europa.eu/)
-- [Copernicus Land cover layer](https://land.copernicus.eu/pan-european)
-- [Copernicus Human settlements layer](https://land.copernicus.eu/pan-european)
-- [VIIRS Nighttime lights layer](http://gis.ngdc.noaa.gov/arcgis/rest/services/NPP_VIIRS_DNB)
+Ancillary layers are required at the target resolution to guide the procedure. Each dataset is normalized to the target resolution, through averaging/summing cells in the cases where the original raster had a higher resolution, or through bicubic interpolation in the cases where the original raster had a lower resolution. The links for the ancillary data that we used in our study are provided next, although any dataset can be leveraged. The normalized datasets at a resolution of 200 meters are available in '/rasters/Withdrawals'
+- [GHSL Population grid - ghspg](https://ghsl.jrc.ec.europa.eu/)
+- [GHSL Terrain development layer - bua](https://ghsl.jrc.ec.europa.eu/)
+- [Copernicus Land cover layer - lc](https://land.copernicus.eu/pan-european)
+- [Copernicus Human settlements layer - hs](https://land.copernicus.eu/pan-european)
+- [VIIRS Nighttime lights layer - nl](http://gis.ngdc.noaa.gov/arcgis/rest/services/NPP_VIIRS_DNB)
 
 ## Shapefiles
 The shapefiles containing the polygons for source and evaluation zones are available in:
