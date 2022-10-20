@@ -11,6 +11,7 @@
 
 
 # Code Usage
+The disaggregation method relies on a regression model to combine the ancillary data and produce disaggregation estimates. The entire procedure was implemented in the Python language, using the frameworks [scikit-learn](http://scikit-learn.org) and [Tensorflow](http://www.tensorflow.org).
 
 ## Spatial Disaggregation
 To run the disaggregation algorithm, for the amount of withdrawals in ATMs:
