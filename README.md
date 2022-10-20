@@ -43,12 +43,15 @@ runDisaggregation.py
 - [VIIRS Nighttime lights layer](http://gis.ngdc.noaa.gov/arcgis/rest/services/NPP_VIIRS_DNB)
 
 ## Shapefiles
-The shapefiles containing polygons for source and evaluation zones are available in:
-- Source zones (NUTS III regions) - /shapefiles/Withdrawals/NUTSIII.*
-- Evaluation zones (municipalities) - /shapefiles/Withdrawals/MUNICIP.*
+The shapefiles containing the polygons for source and evaluation zones are available in:
+- Source zones (NUTS III regions) - /shapefiles/Withdrawals/NUTSIII.shp
+- Evaluation zones (municipalities) - /shapefiles/Withdrawals/MUNICIP.shp
 
 
 ## Aggregated Statistics
+The csv files containing the aggregated statistics for source and evaluation zones are available in:
+- Source zones (NUTS III regions) - /statistics/Withdrawals/NUTSIII.csv
+- Evaluation zones (municipalities) - /statistics/Withdrawals/MUNICIP.csv
 
 
 # Contact
