@@ -24,6 +24,8 @@ To run the pycnophylactic interpolation:
 »» runDisaggregation.py
 
 
+# Disaggregated Results
+
 # Datasets
 
 ## Ancillary Data
@@ -36,8 +38,6 @@ To run the pycnophylactic interpolation:
 ## Shapefiles
 
 ## Aggregated Statistics
-
-## Disaggregated Results
 
 
 # Contact
