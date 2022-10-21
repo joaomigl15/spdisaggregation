@@ -26,10 +26,15 @@ The disaggregation method relies on a regression model to combine the ancillary 
 This file '/code/runDisaggregation_Withdrawals.py' controls the self-training approach for each experiment. In this file, the following parameters need to be defined.
 - indicator - The ID of the variable to be disaggregated, default='Withdrawals'
 - admboundary2 = The source administrative regions, default='NUTSIII'
+  - Other options: 'MUNICIP' (municipalities) and 'CPARISH' (civil parishes)
 - methodopts = The regression models to be used in co-training, default=['apcnn', 'aprf']
+  - Each method must start with 'ap'
+  - Other options: 'lm' (linear model), 'sgdregressor' (SGD Regressor), 'xgbtree' (XGBoost)
 - cnnmodelopts = The CNN model to be used, default='unet'
+  - Other options: 'cnnlm' (a linear model), 'lenet' (LeNet5), 'vgg' (VGG), 'uenc' (encoder of UNet), 'unetplusplus' (UNet++)
 - epochspiopts = The number of epochs of the CNN to train at each iteration, default=3
 - ymethodopts = The heuristic to be used as initial estimates, default='smoothtd'
+  - Other options: 'td' (weighted interpolation), 'massp' (mass-preserving areal weighting), 'pycno' (pycnophylactic interpolation)
 - resetwopts = Whether or not to reset the weights of CNN and optimizer and each iteration, default=False
 
 The execution of the script produces one .tif file, containing the disaggregated results for the study region, concerning each iteration of the algorithm.
