@@ -42,18 +42,21 @@ The execution of the script produces one .tif file, containing the disaggregated
 
 To run the disaggregation algorithm, for the amount of withdrawals in ATMs:
 ```
+chmod +x disaggregate_withdrawals.sh
 ./disaggregate_withdrawals.sh
 ```
 
 ## Dasymetric Mapping
 To run dasymetric mapping with basis on population distribution, for the amount of withdrawals in ATMs:
 ```
+chmod +x dasymapping_withdrawals.sh
 ./dasymapping_withdrawals.sh
 ```
 
 ## Pycnophylactic Interpolation
 To run the pycnophylactic interpolation, for the amount of withdrawals in ATMs:
 ```
+chmod +x pycno_withdrawals.sh
 ./pycno_withdrawals.sh
 ```
 
