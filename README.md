@@ -29,7 +29,8 @@ This file '/code/runDisaggregation_Withdrawals.py' controls the self-training ap
   - Other options: 'MUNICIP' (municipalities) and 'CPARISH' (civil parishes)
 - methodopts = The regression models to be used in co-training, default=['apcnn', 'aprf']
   - Each method must start with 'ap'
-  - Other options: 'lm' (linear model), 'sgdregressor' (SGD Regressor), 'xgbtree' (XGBoost)
+  - Other options: 'lm' (linear model), 'sgdregressor' (SGD Regressor), 'xgbtree' (XGBoost), ['ap1cnn', 'ap2cnn'] (co-training with 2 UNets differing in their initializations)
+  - Training with a single model can be performed by setting the same model in the two positions
 - cnnmodelopts = The CNN model to be used, default='unet'
   - Other options: 'cnnlm' (a linear model), 'lenet' (LeNet5), 'vgg' (VGG), 'uenc' (encoder of UNet), 'unetplusplus' (UNet++)
 - epochspiopts = The number of epochs of the CNN to train at each iteration, default=3
